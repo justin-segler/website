@@ -1,0 +1,46 @@
+/*
+	Ion by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+*/
+
+/* Basic */
+
+	body, input, select, textarea {
+		font-size: 11pt;
+	}
+
+/* Banner */
+
+	#banner {
+		padding: 8em 0;
+	}
+
+		#banner h2 {
+			font-size: 2.5em;
+		}
+
+/* Footer */
+
+	#footer {
+		padding: 4em 0;
+	}
+
+	.small-input {
+		width: 60%;
+		height: 3em;
+		float: none;
+		margin-bottom: 2em;
+		padding-left: 1em;
+	}
+
+	.big-input {
+		width: 60%;
+		height: 6em;
+		float: none;
+		margin-bottom: 2em;
+		padding-left: 1em;
+		resize: none;
+		background-color: #ffffff;
+		margin-left: 20%;
+	}
