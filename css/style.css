@@ -1007,6 +1007,10 @@
 						text-decoration: none;
 					}
 
+					#header nav > ul > li a#home-nav {
+						color: #629DD1; 
+					}
+
 						#header nav > ul > li a:hover {
 							color: #629DD1;
 						}
@@ -1040,15 +1044,18 @@
 /* Banner */
 
 	#banner {
-		background-color: #666666;
-		background-image: url("../images/banner.jpg");
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
 		color: #d8d8d8;
 		padding: 14em 0;
 		text-align: center;
 		position: relative;
+	}
+
+	#banner img {
+		position: fixed;
+		top: 3%;
+		left: 0;
+		width: 100%;
+		z-index: -1;
 	}
 
 		#banner:before {
@@ -1063,7 +1070,6 @@
 
 		#banner .inner {
 			position: relative;
-			z-index: 1;
 		}
 
 			#banner .inner :last-child {
@@ -1072,6 +1078,7 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #ffffff;
+			z-index: 10;
 		}
 
 		#banner .button.alt {
@@ -1111,6 +1118,10 @@
 				color: #ffffff;
 				text-decoration: none;
 			}
+
+	.contact {
+		background-color: #ffffff;
+	}
 
 /* Footer */
 

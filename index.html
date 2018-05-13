@@ -15,6 +15,9 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/skel-layers.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/contact.js"></script>
+		<script src="js/scroll.js"></script>
+		<script src="js/nav.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -28,11 +31,11 @@
 				<h1><a href="#">JS</a></h1>
 				<nav id="nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
-						<li><a href="left-sidebar.html">Skills</a></li>
-						<li><a href="right-sidebar.html">Portfolio</a></li>
-						<li><a href="right-sidebar.html">Career</a></li>
-						<li><a href="no-sidebar.html">Contact</a></li>
+						<li><a id="home-nav" href="#">Home</a></li>
+						<li><a id="skills-nav" href="#">Skills</a></li>
+						<li><a id="portfolio-nav" href="#">Portfolio</a></li>
+						<li><a id="career-nav" href="#">Career</a></li>
+						<li><a id="contact-nav" href="#">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -41,6 +44,7 @@
 			<section id="banner">
 				<div class="inner">
 					<h2>Justin Segler</h2>
+					<img src="images/banner.jpg" />
 				</div>
 			</section>
 
@@ -186,36 +190,36 @@
 				</div>
 			</section>
 
-			<section class="wrapper">
+			<section class="wrapper contact">
 				<header class="major">
 					<h2>Contact</h2>
 				</header>
 				<div class="container">
 					<div class="row">
 						<div class="12u">
-							<form class="align-center">
+							<form id="contactForm" class="align-center">
 								<div class="row">
 									<div class="6u">
 										<div>
-											<input class="small-input" placeholder="Name" />
+											<input id="name" class="small-input" placeholder="Name" />
 										</div>
 										<div>
-											<input class="small-input" placeholder="Email" />
+											<input id="email" class="small-input" placeholder="Email" />
 										</div>
 										<div>
-											<input class="small-input" placeholder="Phone Number" />
+											<input id="phone"  class="small-input" placeholder="Phone Number" />
 										</div>
 									</div>
 									<div class="6u">
 										<div>
-											<textarea rows="12" class="big-input" placeholder="Message"></textarea>
+											<textarea id="message" rows="12" class="big-input" placeholder="Message"></textarea>
 										</div>
 									</div>
 								</div>
 								<div class="row">
 									<div class="12u">
 										<div class="submit">
-											<input class="align-center" type="submit" />
+											<input id="sendMessageButton" class="align-center" type="submit" />
 										</div>
 									</div>
 								</div>
