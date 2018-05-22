@@ -1230,3 +1230,52 @@
 		display: block;
 		margin: 0 auto;
 }
+
+@media only screen and (max-width: 1000px) {
+  #banner {
+		height: 300px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#banner img {
+		height: 300px;
+		width: auto;
+		top: 0;
+	}
+
+	.career-image {
+		display: flex;
+		justify-content: center;
+		vertical-align: center;
+	}
+
+	.career-image img {
+		margin-left: 0 !important;
+		height: 90%;
+	}
+
+	.career-blurb {
+		align-items: center;
+		margin-right: 0 !important;
+		text-align: center;
+		margin-top: 3em;
+	}
+
+	.career-blurb a {
+		cursor: pointer;
+	}
+
+	.career-blurb h3 {
+		margin-left: 2.3em;
+	}
+
+	.career-blurb h4 {
+		margin-left: .5em !important;
+	}
+
+	.image-container {
+		display: none;
+	}
+}
