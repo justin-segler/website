@@ -1167,3 +1167,66 @@
 		#footer .icons a {
 			color: #bbb;
 		}
+
+/* Modals */
+
+.button:focus {
+		outline: none;
+}
+
+.portfolio-modal {
+	position: fixed;
+  top: -150%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+	width: 100%;
+	height: 100%;
+	background-color: #192024;
+	z-index: 10001;
+	color: #ffffff99;
+	opacity: 0;
+}
+
+.portfolio-modal h2 {
+	color: #ffffff;
+}
+
+.modal-body {
+	overflow-y: scroll;
+}
+
+.modal-content {
+	height: 0;
+}
+
+.modal-container {
+	width: 50%;
+	padding: 7% 0;
+}
+
+.closeModalX {
+	float: right;
+	background-color: transparent;
+	border-color: transparent;
+	margin-top: 4%;
+	margin-right: 4%;
+	cursor: pointer !important;
+	width: 5em;
+}
+
+.closeModalX img {
+	width: 100%;
+	float: right;
+  margin-right: 12%;
+}
+
+.closeModalX:focus {
+	outline: none;
+}
+
+.closeModalButton {
+    box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
+    color: #ffffff;
+		display: block;
+		margin: 0 auto;
+}

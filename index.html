@@ -18,6 +18,7 @@
 		<script src="js/contact.js"></script>
 		<script src="js/scroll.js"></script>
 		<script src="js/nav.js"></script>
+		<script src="js/modals.js"></script>
 		<script src="https://smtpjs.com/v2/smtp.js"></script>
 		<noscript>
 			<link rel="stylesheet" href="css/skel.css" />
@@ -90,21 +91,21 @@
 					<div class="row">
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/Jive.png" alt="" /></a>
+								<a class="image fit" data-toggle="modal"><img src="images/Jive.png" alt="" /></a>
 								<h3>Jive App</h3>
 								<p>Jive is the ultimate party music app. Jive allows users to join local parties and create playlists with friends. The perfect app for parties and roadtrips, Jive lets friends listen to music together without being confined to a single device.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><button class="button alt" id="portfolio1Link">Learn More</button></li>
 								</ul>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/baby.jpg" alt="" /></a>
+								<a class="image fit" data-toggle="modal"><img src="images/baby.jpg" alt="" /></a>
 								<h3>Zaky App</h3>
 								<p>The Zaky App was designed for NuturedByDesign as an app that allows newborn mothers to track the growth and development of their newborn baby. The Zaky App design was meant to be used in conjunction with the Zaky sensor, a sensor that monitors stats of the baby. The app also allows mothers to log information about their baby, contact healthcare professionals, and communicate with other newbord mothers.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><button class="button alt" id="portfolio2Link">Learn More</button></li>
 								</ul>
 							</section>
 						</div>
@@ -112,21 +113,21 @@
 					<div class="row">
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/harvey.jpg" alt="" /></a>
-								<h3>UT NSF Hurricane Harvey Project</h3>
+								<a class="image fit" data-toggle="modal"><img src="images/harvey.jpg" alt="" /></a>
+								<h3>NSF Hurricane Harvey Project</h3>
 								<p>As a part of the Computational Media Lab in the Journalism School at the University of Texas at Austin, the NSF Hurricane Harvey Project is a project aimed at developing a tool that utilizes machine learning in order to dynamically identify individuals in need of disaster help.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><button class="button alt" id="portfolio3Link">Learn More</button></li>
 								</ul>
 							</section>
 						</div>
 						<div class="6u">
 							<section class="special">
-								<a href="#" class="image fit"><img src="images/immerj.jpg" alt="" /></a>
+								<a class="image fit" data-toggle="modal"><img src="images/immerj.jpg" alt="" /></a>
 								<h3>Immersive Journalism</h3>
 								<p>As a collaborative effort between the UT School of Journalism, journalists at the New York Times and the Washington Post, and researchers at the Texas Advanced Computing Center Visualization Lab, Immersive Journalism was designed and implemented as an intuitive application that enables journalists to create captivating virtual reality stories as 360° panoramic scenes.</p>
 								<ul class="actions">
-									<li><a href="#" class="button alt">Learn More</a></li>
+									<li><button class="button alt" id="portfolio4Link">Learn More</button></li>
 								</ul>
 							</section>
 						</div>
@@ -246,4 +247,133 @@
 			</footer>
 
 	</body>
+
+	<!-- Modals -->
+	<div class="portfolio-modal modal fade" id="portfolioModal1">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="closeModalX" id="closeModalX1"><img src="images/x.png"/></button>
+				<div class="container modal-container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2 class="text-uppercase align-center">Jive App</h2>
+								<a class="image fit" data-toggle="modal"><img src="images/Jive.png" alt="" /></a>
+								<p>Lorem ipsum dolor sit amet, idque aliquip civibus quo ex, assum decore ea nam. Mei oratio equidem sadipscing eu, error vitae atomorum mei eu, eu nec elitr hendrerit definitionem. Te solum ludus tibique mel, duis nullam iriure in quo, sit ei nisl tation perfecto. Nam populo facete inermis ei, te sumo eruditi honestatis sea, quo ne vide legendos periculis.
+
+At mel modus aliquam voluptua, at impetus placerat recteque per. Vel no noster oblique. Per alia lobortis intellegebat an. Cu alterum scaevola vis.
+
+Id nec fugit dicta assueverit, te per quot liber periculis, vocent consulatu qui ut. Id facilis patrioque mei. Ut justo idque praesent vis, in duo civibus quaestio. Possit scaevola expetenda mei cu, aperiam feugait id sed.
+
+Erat audiam ad ius. Ex qui iisque antiopam, veri impedit definitiones est ne. Ius no diam interesset. Ius ea quodsi causae consequat. Ea paulo intellegebat deterruisset quo, vim tamquam numquam fastidii ut.
+
+In posse imperdiet elaboraret usu, soleat lobortis cu eum. Saperet deterruisset no mel. Ad consulatu voluptatibus his, sit ei esse nulla. Eum dicit interesset scribentur ad. Meis pertinax cu mea, pro ei aliquam efficiantur. Te pri fabulas iracundia comprehensam, mel modus apeirian euripidis at, oportere scriptorem ex vix.</p>
+
+								<button class="button closeModalButton" id="closeModalButton1">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal2">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="closeModalX" id="closeModalX2"><img src="images/x.png"/></button>
+				<div class="container modal-container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2 class="text-uppercase align-center">Zaky App</h2>
+								<a class="image fit" data-toggle="modal"><img src="images/baby.jpg" alt="" /></a>
+								<p>Lorem ipsum dolor sit amet, idque aliquip civibus quo ex, assum decore ea nam. Mei oratio equidem sadipscing eu, error vitae atomorum mei eu, eu nec elitr hendrerit definitionem. Te solum ludus tibique mel, duis nullam iriure in quo, sit ei nisl tation perfecto. Nam populo facete inermis ei, te sumo eruditi honestatis sea, quo ne vide legendos periculis.
+
+At mel modus aliquam voluptua, at impetus placerat recteque per. Vel no noster oblique. Per alia lobortis intellegebat an. Cu alterum scaevola vis.
+
+Id nec fugit dicta assueverit, te per quot liber periculis, vocent consulatu qui ut. Id facilis patrioque mei. Ut justo idque praesent vis, in duo civibus quaestio. Possit scaevola expetenda mei cu, aperiam feugait id sed.
+
+Erat audiam ad ius. Ex qui iisque antiopam, veri impedit definitiones est ne. Ius no diam interesset. Ius ea quodsi causae consequat. Ea paulo intellegebat deterruisset quo, vim tamquam numquam fastidii ut.
+
+In posse imperdiet elaboraret usu, soleat lobortis cu eum. Saperet deterruisset no mel. Ad consulatu voluptatibus his, sit ei esse nulla. Eum dicit interesset scribentur ad. Meis pertinax cu mea, pro ei aliquam efficiantur. Te pri fabulas iracundia comprehensam, mel modus apeirian euripidis at, oportere scriptorem ex vix.</p>
+
+								<button class="button closeModalButton" id="closeModalButton2">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal3">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="closeModalX" id="closeModalX3"><img src="images/x.png"/></button>
+				<div class="container modal-container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2 class="text-uppercase align-center">NSF HURRICANE HARVEY PROJECT</h2>
+								<a class="image fit" data-toggle="modal"><img src="images/harvey.jpg" alt="" /></a>
+								<p>Lorem ipsum dolor sit amet, idque aliquip civibus quo ex, assum decore ea nam. Mei oratio equidem sadipscing eu, error vitae atomorum mei eu, eu nec elitr hendrerit definitionem. Te solum ludus tibique mel, duis nullam iriure in quo, sit ei nisl tation perfecto. Nam populo facete inermis ei, te sumo eruditi honestatis sea, quo ne vide legendos periculis.
+
+At mel modus aliquam voluptua, at impetus placerat recteque per. Vel no noster oblique. Per alia lobortis intellegebat an. Cu alterum scaevola vis.
+
+Id nec fugit dicta assueverit, te per quot liber periculis, vocent consulatu qui ut. Id facilis patrioque mei. Ut justo idque praesent vis, in duo civibus quaestio. Possit scaevola expetenda mei cu, aperiam feugait id sed.
+
+Erat audiam ad ius. Ex qui iisque antiopam, veri impedit definitiones est ne. Ius no diam interesset. Ius ea quodsi causae consequat. Ea paulo intellegebat deterruisset quo, vim tamquam numquam fastidii ut.
+
+In posse imperdiet elaboraret usu, soleat lobortis cu eum. Saperet deterruisset no mel. Ad consulatu voluptatibus his, sit ei esse nulla. Eum dicit interesset scribentur ad. Meis pertinax cu mea, pro ei aliquam efficiantur. Te pri fabulas iracundia comprehensam, mel modus apeirian euripidis at, oportere scriptorem ex vix.</p>
+
+								<button class="button closeModalButton" id="closeModalButton3">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="portfolio-modal modal fade" id="portfolioModal4">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button class="closeModalX" id="closeModalX4"><img src="images/x.png"/></button>
+				<div class="container modal-container">
+					<div class="row">
+						<div class="col-lg-8 mx-auto">
+							<div class="modal-body">
+								<!-- Project Details Go Here -->
+								<h2 class="text-uppercase align-center">IMMERSIVE JOURNALISM</h2>
+								<a class="image fit" data-toggle="modal"><img src="images/immerj.jpg" alt="" /></a>
+								<p>Lorem ipsum dolor sit amet, idque aliquip civibus quo ex, assum decore ea nam. Mei oratio equidem sadipscing eu, error vitae atomorum mei eu, eu nec elitr hendrerit definitionem. Te solum ludus tibique mel, duis nullam iriure in quo, sit ei nisl tation perfecto. Nam populo facete inermis ei, te sumo eruditi honestatis sea, quo ne vide legendos periculis.
+
+At mel modus aliquam voluptua, at impetus placerat recteque per. Vel no noster oblique. Per alia lobortis intellegebat an. Cu alterum scaevola vis.
+
+Id nec fugit dicta assueverit, te per quot liber periculis, vocent consulatu qui ut. Id facilis patrioque mei. Ut justo idque praesent vis, in duo civibus quaestio. Possit scaevola expetenda mei cu, aperiam feugait id sed.
+
+Erat audiam ad ius. Ex qui iisque antiopam, veri impedit definitiones est ne. Ius no diam interesset. Ius ea quodsi causae consequat. Ea paulo intellegebat deterruisset quo, vim tamquam numquam fastidii ut.
+
+In posse imperdiet elaboraret usu, soleat lobortis cu eum. Saperet deterruisset no mel. Ad consulatu voluptatibus his, sit ei esse nulla. Eum dicit interesset scribentur ad. Meis pertinax cu mea, pro ei aliquam efficiantur. Te pri fabulas iracundia comprehensam, mel modus apeirian euripidis at, oportere scriptorem ex vix.
+
+Lorem ipsum dolor sit amet, idque aliquip civibus quo ex, assum decore ea nam. Mei oratio equidem sadipscing eu, error vitae atomorum mei eu, eu nec elitr hendrerit definitionem. Te solum ludus tibique mel, duis nullam iriure in quo, sit ei nisl tation perfecto. Nam populo facete inermis ei, te sumo eruditi honestatis sea, quo ne vide legendos periculis.
+
+At mel modus aliquam voluptua, at impetus placerat recteque per. Vel no noster oblique. Per alia lobortis intellegebat an. Cu alterum scaevola vis.
+
+Id nec fugit dicta assueverit, te per quot liber periculis, vocent consulatu qui ut. Id facilis patrioque mei. Ut justo idque praesent vis, in duo civibus quaestio. Possit scaevola expetenda mei cu, aperiam feugait id sed.
+
+Erat audiam ad ius. Ex qui iisque antiopam, veri impedit definitiones est ne. Ius no diam interesset. Ius ea quodsi causae consequat. Ea paulo intellegebat deterruisset quo, vim tamquam numquam fastidii ut.
+
+In posse imperdiet elaboraret usu, soleat lobortis cu eum. Saperet deterruisset no mel. Ad consulatu voluptatibus his, sit ei esse nulla. Eum dicit interesset scribentur ad. Meis pertinax cu mea, pro ei aliquam efficiantur. Te pri fabulas iracundia comprehensam, mel modus apeirian euripidis at, oportere scriptorem ex vix.
+								</p>
+
+								<button class="button closeModalButton" id="closeModalButton4">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 </html>
