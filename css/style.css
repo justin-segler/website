@@ -506,7 +506,6 @@
 
 	.career-blurb {
 		margin-right: 10%;
-		margin-top: 52%;
 	}
 
 	.career-blurb a {
@@ -1174,6 +1173,14 @@
 		outline: none;
 }
 
+.modal-link:hover {
+	cursor: pointer !important;
+}
+
+.modal-link {
+	padding-left: 0px !important;
+}
+
 .portfolio-modal {
 	position: fixed;
   top: -150%;
@@ -1313,7 +1320,13 @@
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 980px) {
-	.career-blurb {
-		margin-top: 47%;
+	.hide {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 979px) {
+	br {
+		display: none;
 	}
 }
