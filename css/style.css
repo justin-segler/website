@@ -1173,9 +1173,12 @@
 	display: none !important;
 }
 
+.modal-content p {
+	color: #666f77;
+}
+
 .modal-screen {
-	width: 45%;
-	border: 1px solid #bbb;
+	width: 50%;
 	float: left;
 }
 
@@ -1207,10 +1210,12 @@ a {
 
 .left {
   margin-right: 5%;
+	margin-left: 5%;
 }
 
 .right {
   margin-left: 5%;
+	margin-right: 5%;
 }
 
 .modal-screen img {
@@ -1242,14 +1247,14 @@ a {
   transform: translate(-50%, 0%);
 	width: 100%;
 	height: 100%;
-	background-color: #192024;
+	background-color: #fdfdfd;
 	z-index: 10001;
 	color: #ffffff99;
 	opacity: 0;
 }
 
 .portfolio-modal h2 {
-	color: #ffffff;
+	color: #666f77;
 }
 
 .modal-body {
@@ -1282,11 +1287,16 @@ a {
 }
 
 .closeModalButton {
-    box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
-    color: #ffffff;
+		box-shadow: inset 0 0 0 1px rgba(144, 144, 144, 0.75);
+    background-color: #fdfdfd;
+    color: #666f77 !important;
 		display: block;
 		margin: 0 auto;
 		width: 111px;
+}
+
+.closeModalButton:hover {
+	color: #fff !important;
 }
 
 .career-blurb img {
