@@ -5,7 +5,8 @@ $(document).ready(() => {
       var name = $("input#name").val();
       var email = $("input#email").val();
       var phone = $("input#phone").val();
-      var message = name + "\n" + email + "\n" + phone + "\n\n" + $("textarea#message").val();
+      var subject = name + " " + email + " " + phone;
+      var message = $("textarea#message").val();
       var firstName = name; // For Success/Failure Message
       // Check for white space in name for Success/Fail message
       if (firstName.indexOf(' ') >= 0) {
@@ -16,7 +17,7 @@ $(document).ready(() => {
 
       Email.send("noreply@justinsegler.com",
         "justin@djsegler.com",
-        name,
+        subject,
         message,
         "smtp.elasticemail.com",
         "justin@djsegler.com",
