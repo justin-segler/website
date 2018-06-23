@@ -1179,6 +1179,10 @@
 	float: left;
 }
 
+a {
+	text-decoration: none;
+}
+
 .modal-image {
 	width: 100%;
 }
@@ -1282,6 +1286,7 @@
     color: #ffffff;
 		display: block;
 		margin: 0 auto;
+		width: 111px;
 }
 
 .career-blurb img {
