@@ -1130,6 +1130,10 @@
 		background-color: #ffffff;
 	}
 
+	.career-blurb p {
+		color: #a3a5a7;
+	}
+
 /* Footer */
 
 	#footer {
@@ -1375,7 +1379,7 @@ a {
 	}
 
 	.closeModalX {
-		width: 3em;
+		width: 40px;
 	}
 }
 
